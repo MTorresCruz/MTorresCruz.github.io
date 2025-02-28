@@ -109,9 +109,9 @@ nav ul li a:hover {
 .content-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-    padding: 60px 40px 20px;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 80px 40px;
     max-width: 1200px;
     margin: auto;
 }
@@ -124,6 +124,7 @@ nav ul li a:hover {
     align-items: center;
     gap: 15px;
     flex: 1;
+    margin-top: 60px; /* Moves volunteer button further down */
 }
 .mission img {
     width: 150px;
@@ -131,7 +132,6 @@ nav ul li a:hover {
     border-radius: 50%;
     cursor: pointer;
     transition: transform 0.3s;
-    margin-bottom: 15px;
 }
 .mission img:hover {
     transform: scale(1.1);
@@ -154,7 +154,8 @@ nav ul li a:hover {
     gap: 20px;
     flex: 2;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 60px; /* Moves the gallery up */
 }
 .gallery-item {
     text-align: center;
