@@ -69,8 +69,8 @@ nav ul li a:hover {
 .hero {
     background: url('rectangle-2.jpg') no-repeat center center/cover;
     background-color: #bbb9b9;
-    height: 70vh;
-    min-height: 100px;
+    height: 60vh;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +111,7 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
-    padding: 80px 40px;
+    padding: 40px 40px;
     max-width: 1200px;
     margin: auto;
 }
@@ -124,7 +124,7 @@ nav ul li a:hover {
     align-items: center;
     gap: 15px;
     flex: 1;
-    margin-top: 60px; /* Moves volunteer button further down */
+    margin-top: 40px;
 }
 .mission img {
     width: 150px;
@@ -155,7 +155,7 @@ nav ul li a:hover {
     flex: 2;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 60px; /* Moves the gallery up */
+    margin-top: -20px;
 }
 .gallery-item {
     text-align: center;
