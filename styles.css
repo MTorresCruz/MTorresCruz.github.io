@@ -55,7 +55,7 @@ nav ul li a:hover {
     font-weight: bold;
     font-size: 1rem;
     transition: 0.3s;
-    white-space: nowrap; /* Prevents text from wrapping */
+    white-space: nowrap;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,9 +68,9 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     background: url('rectangle-2.jpg') no-repeat center center/cover;
-    background-color: #bbb9b9; /* Fallback color in case image is missing */
+    background-color: #bbb9b9;
     height: 70vh;
-    min-height: 100px; /* Ensures section takes up space */
+    min-height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@ nav ul li a:hover {
 }
 
 .hero-content {
-    background: rgba(0, 0, 0, 0.5); /* Slight transparency for text visibility */
+    background: rgba(0, 0, 0, 0.5);
     padding: 50px;
     border-radius: 8px;
     display: inline-block;
@@ -108,9 +108,9 @@ nav ul li a:hover {
 /* Section Below Hero - Mission & Gallery */
 .content-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 40px;
-    padding: 40px;
+    padding: 80px 40px 40px;
     flex-wrap: wrap;
     align-items: flex-start;
 }
@@ -126,9 +126,10 @@ nav ul li a:hover {
 .mission img {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%;
     cursor: pointer;
     transition: transform 0.3s;
+    margin-top: 20px;
 }
 .mission img:hover {
     transform: scale(1.1);
@@ -152,10 +153,28 @@ nav ul li a:hover {
 .gallery-item {
     text-align: center;
     max-width: 250px;
+    position: relative;
 }
 .gallery-item img {
     width: 100%;
     border-radius: 8px;
+}
+.gallery-item a.button {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(75, 28, 28, 0.8);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+.gallery-item a.button:hover {
+    background: #3a1515;
 }
 
 /* Footer */
