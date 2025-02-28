@@ -70,7 +70,7 @@ nav ul li a:hover {
     background: url('rectangle-2.jpg') no-repeat center center/cover;
     background-color: #bbb9b9; /* Fallback color in case image is missing */
     height: 100vh;
-    min-height: 600px; /* Ensures section takes up space */
+    min-height: 100px; /* Ensures section takes up space */
     display: flex;
     justify-content: center;
     align-items: center;
