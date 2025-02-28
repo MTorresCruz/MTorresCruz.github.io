@@ -43,7 +43,7 @@ nav ul li a {
     font-size: 1.1rem;
 }
 nav ul li a:hover {
-    color: #ff9f1c;
+    color: #c7ecbd;
 }
 
 .donate-button {
@@ -74,7 +74,6 @@ nav ul li a:hover {
 }
 
 .hero-content {
-    background: rgba(0, 0, 0, 0.5);
     padding: 50px;
     border-radius: 8px;
     display: inline-block;
