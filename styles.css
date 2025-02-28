@@ -108,11 +108,12 @@ nav ul li a:hover {
 /* Section Below Hero - Mission & Gallery */
 .content-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
-    padding: 80px 40px 40px;
-    flex-wrap: nowrap;
+    padding: 80px 40px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .mission {
@@ -122,6 +123,7 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    flex: 1;
 }
 .mission img {
     width: 150px;
@@ -150,7 +152,8 @@ nav ul li a:hover {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
-    align-items: center; /* Aligns images properly */
+    flex: 2;
+    justify-content: center;
 }
 .gallery-item {
     text-align: center;
