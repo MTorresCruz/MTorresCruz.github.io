@@ -148,8 +148,9 @@ nav ul li a:hover {
 
 .gallery {
     display: flex;
-    gap: 20px;
     flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center; /* Aligns images properly */
 }
 .gallery-item {
     text-align: center;
