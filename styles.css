@@ -71,7 +71,7 @@ nav ul li a:hover {
     color: white;
     text-align: center;
     position: relative;
-    border: 2px solid red; /* Temporary outline to check visibility */
+    
 }
 
 .hero-content {
