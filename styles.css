@@ -105,6 +105,59 @@ nav ul li a:hover {
     color: #e08916;
 }
 
+/* Section Below Hero - Mission & Gallery */
+.content-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.mission {
+    max-width: 350px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.mission img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.mission img:hover {
+    transform: scale(1.1);
+}
+.mission h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+.mission p {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    max-width: 280px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+}
+.gallery-item {
+    text-align: center;
+    max-width: 250px;
+}
+.gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
 /* Footer */
 footer {
     background-color: #3d348b;
