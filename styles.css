@@ -69,7 +69,7 @@ nav ul li a:hover {
 .hero {
     background: url('rectangle-2.jpg') no-repeat center center/cover;
     background-color: #bbb9b9; /* Fallback color in case image is missing */
-    height: 100vh;
+    height: 70vh;
     min-height: 100px; /* Ensures section takes up space */
     display: flex;
     justify-content: center;
