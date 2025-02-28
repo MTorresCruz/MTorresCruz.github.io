@@ -109,9 +109,9 @@ nav ul li a:hover {
 .content-section {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    padding: 80px 40px;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 40px 20px;
     max-width: 1200px;
     margin: auto;
 }
@@ -131,7 +131,7 @@ nav ul li a:hover {
     border-radius: 50%;
     cursor: pointer;
     transition: transform 0.3s;
-    margin-top: 20px;
+    margin-bottom: 15px;
 }
 .mission img:hover {
     transform: scale(1.1);
@@ -153,7 +153,8 @@ nav ul li a:hover {
     flex-wrap: nowrap;
     gap: 20px;
     flex: 2;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 .gallery-item {
     text-align: center;
